@@ -16,17 +16,18 @@
         Have leftover ingredients from past receipes, and you're not sure what
         to make? Simply list them below and a recipe will be generated for you!
       </h2>
-      <form>
+      <form id="ingredients-form">
         <input
           type="text"
           placeholder="Type here the ingredients you need to use up"
           required
           autofocus
           class="ingredients"
+          id="ingredients"
         />
         <input type="submit" class="submit-button" />
       </form>
-      <div class="recipe">This is where the recipe will be presented</div>
+      <div class="recipe" id="recipe"></div>
     </div>
 
     <footer>
@@ -36,6 +37,7 @@
       <a href="https://github.com/ndamph/ai-recipe-generator">GitHub</a> and
       hosted on Netlify.
     </footer>
+
     <script src="/src/script.js"></script>
   </body>
 </html>
