@@ -1,8 +1,12 @@
 function generateRecipe(event) {
   event.preventDefault();
 
-  let showRecipe = document.querySelector("#recipe");
-  showRecipe.innerHTML = "This is the recipe";
+  new Typewriter("#recipe", {
+    strings: "This is the recipe",
+    autoStart: true,
+    delay: 50,
+    cursor: null,
+  });
 }
 
 let ingredientElement = document.querySelector("#ingredients-form");
