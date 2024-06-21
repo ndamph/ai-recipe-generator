@@ -66,4 +66,6 @@ a {
 .recipe {
   font-size: 18px;
   margin: 20px;
+  border-left: 3px solid #fc284f;
+  padding-left: 5px;
 }
