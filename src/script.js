@@ -19,7 +19,8 @@ function generateRecipe(event) {
   let givenIngredients = ingredients.value;
   let apiKey = "73fd7aeeb1fc6do18b8423c70f3b718t";
   let prompt = `Please give me a recipe using these ingredients: ${givenIngredients}`;
-  let context = "Please respond with no precursor";
+  let context =
+    "You are an expert recipe writer. Please present the recipe in HTML format with no precursor.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   axios.get(apiUrl).then(showRecipe);
