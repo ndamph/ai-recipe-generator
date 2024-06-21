@@ -7,20 +7,27 @@
     <title>AI Recipe Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Recipe Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Recipe Generator</h1>
+      </header>
 
-    <form>
-      <input
-        type="text"
-        placeholder="Type here the ingredients you need to use up"
-        required
-        autofocus
-      />
-      <input type="submit" />
-    </form>
-    <div>This is where the recipe will be presented</div>
+      <h2>
+        Have leftover ingredients from past receipes, and you're not sure what
+        to make? Simply list them below and a recipe will be generated for you!
+      </h2>
+      <form>
+        <input
+          type="text"
+          placeholder="Type here the ingredients you need to use up"
+          required
+          autofocus
+          class="ingredients"
+        />
+        <input type="submit" class="submit-button" />
+      </form>
+      <div class="recipe">This is where the recipe will be presented</div>
+    </div>
 
     <footer>
       This project was coded by
