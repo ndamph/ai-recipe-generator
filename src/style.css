@@ -63,6 +63,11 @@ a {
   margin-left: 3px;
 }
 
+.submit-button:hover {
+  cursor: pointer;
+  color: white;
+}
+
 .recipe {
   font-size: 18px;
   margin: 20px;
