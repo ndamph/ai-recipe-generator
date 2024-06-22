@@ -83,6 +83,9 @@ a {
   h2 {
     font-size: 15px;
   }
+  li {
+    font-size: 15px;
+  }
   footer {
     font-size: 12px;
   }
@@ -90,5 +93,8 @@ a {
   .submit-button {
     font-size: 15px;
     padding: 5px 15px;
+  }
+  .Typewriter__wrapper {
+    font-size: 15px;
   }
 }
