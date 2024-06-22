@@ -49,7 +49,7 @@ a {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   border: 2px solid #fea887;
-  width: 400px;
+  width: 70%;
 }
 
 .submit-button {
@@ -74,4 +74,21 @@ a {
   border-left: 3px solid #fc284f;
   padding-left: 5px;
   line-height: 1.5;
+}
+
+@media (max-width: 896px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  footer {
+    font-size: 12px;
+  }
+  .ingredients,
+  .submit-button {
+    font-size: 15px;
+    padding: 5px 15px;
+  }
 }
